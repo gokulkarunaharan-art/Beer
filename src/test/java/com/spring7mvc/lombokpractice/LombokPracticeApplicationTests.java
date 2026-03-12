@@ -5,8 +5,10 @@ import lombok.AllArgsConstructor;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;
 
 import java.util.UUID;
+
 
 @SpringBootTest
 class LombokPracticeApplicationTests {
